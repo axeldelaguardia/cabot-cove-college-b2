@@ -1,0 +1,6 @@
+<h3><%= @resident.name %></h3>
+Courses:
+<br/>
+<% @resident.courses.each do |course| %>
+	- <%= course.name %><br/>
+<% end %>
